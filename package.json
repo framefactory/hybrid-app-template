@@ -1,0 +1,24 @@
+{
+  "name": "hybrid-app-template",
+  "version": "0.1.0",
+  "description": "Hybrid Application Template supporting Web, Android, iOS, Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framefactory/hybrid-app-template.git"
+  },
+  "contributors": [
+    {
+      "name": "Ralph Wiedemeier",
+      "url": "https://github.com/framefactory"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/framefactory/hybrid-app-template/issues"
+  },
+  "homepage": "https://github.com/framefactory/hybrid-app-template#readme"
+}
