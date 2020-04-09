@@ -4,6 +4,9 @@
   "description": "Hybrid Application Template supporting Web, Android, iOS, Electron",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon services/server/bin/index.js",
+    "build-app": "cd source/app; webpack --mode=development; cd ../..",
+    "build-server": "tsc -b source/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,34 @@
   "bugs": {
     "url": "https://github.com/framefactory/hybrid-app-template/issues"
   },
-  "homepage": "https://github.com/framefactory/hybrid-app-template#readme"
+  "homepage": "https://github.com/framefactory/hybrid-app-template#readme",
+  "dependencies": {
+    "@ionic/core": "^5.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0",
+    "concurrently": "^5.1.0",
+    "css-loader": "^3.5.1",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^4.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "terser-webpack-plugin": "^2.3.5",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }

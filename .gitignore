@@ -3,6 +3,8 @@
 .vscode/
 node_modules/
 
+bin/
+build/
 dist/
 test/
 
