@@ -1,0 +1,6 @@
+{
+    "appId": "ch.framefactory.hybridapptemplate",
+    "appName": "Hybrid App Template",
+    "bundledWebRuntime": false,
+    "webDir": "bin"
+}

@@ -1,6 +1,16 @@
 {
     "compilerOptions": {
+        "target": "ES6",
+        "moduleResolution": "Node",
         "sourceMap": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "app/*": [ "./*" ],
+            "@ff/core/*": [ "../../libs/ff-core/source/*" ],
+            "@ff/browser/*": [ "../../libs/ff-browser/source/*" ],
+            "@ff/ui/*": [ "../../libs/ff-ui/source/*" ]
+        }
     }
 }

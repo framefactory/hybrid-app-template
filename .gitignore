@@ -7,6 +7,8 @@ bin/
 build/
 dist/
 test/
+ios/
+android/
 
 # FILES
 .env
